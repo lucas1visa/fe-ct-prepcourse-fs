@@ -27,10 +27,10 @@ function incrementarPorUno(array) {
 
    var resultado= []
    for (var i = 0; i < array.length ; i++){
-      resultado.push[array[i] +1];
+      resultado.push(array[i] +1) ;
       
    }
-   return resultado ;
+   return resultado;
    
 }
 
@@ -65,7 +65,7 @@ function arrayContiene(array, elemento) {
    // Retornar true si está, o false si no está.
    // Tu código:
    for(var i=0; i <array.length; i++){
-      if(array[i]==elemento){
+      if(array[i] === elemento){
          return true;
       }
    }
