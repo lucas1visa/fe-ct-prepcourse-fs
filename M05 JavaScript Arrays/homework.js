@@ -100,11 +100,11 @@ function promedioResultadosTest(resultadosTest) {
 function numeroMasGrande(arrayOfNums) {
    // El parámetro "arrayOfNums" es un arreglo de números.
    // Retornar el número más grande.
-   // Tu código:                             // ejemplo array=[1,2,3,4,5]
-   var mayor=arrayOfNums[0];                 //toma el primer numero como mayor = 1
-   for(var i=1;i<arrayOfNums.length;i++){    //un ciclo for para recorrer todo el array 
-      if(arrayOfNums[i]>mayor){              //comparacion del numero mayor con los demas numero de la lista, en este caso compara con 2
-         mayor = arrayOfNums[i];             //en caso de cumplir, como en el ejemplo reemplaza a mayor = 2
+   // Tu código:                           
+   var mayor=arrayOfNums[0];               
+   for(var i=1;i<arrayOfNums.length;i++){    
+      if(arrayOfNums[i]>mayor){              
+         mayor = arrayOfNums[i];             
       }
    }
    return mayor;
@@ -122,7 +122,7 @@ function multiplicarArgumentos() {
    } else {
       var producto = 1;
       for (var i=0; i<arguments.length;i++){
-         producto = producto * arguments[i];
+         producto *= arguments[i];
       }
       return producto;
    }
